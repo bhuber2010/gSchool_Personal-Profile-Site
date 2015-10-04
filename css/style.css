@@ -1,3 +1,7 @@
+body {
+  background-image: url("../assets/breck.jpg");
+}
+
 .flexparent {
   display: flex;
   justify-content: space-around;
@@ -16,10 +20,11 @@ h1 {
   text-align: center;
   padding-bottom: 1px;
   width: 100%;
-  color: rgb(16, 82, 5);
+  color: rgb(51, 232, 21);
 }
 
 h3 {
+  color: rgba(235, 244, 80, 0.92);
   text-align: center;
   width: 100%;
 }
