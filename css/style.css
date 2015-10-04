@@ -35,9 +35,11 @@ h3 {
 
 .hometown {
   background-image: url("../assets/redrocks.jpg");
+  color: rgb(17, 231, 19);
 }
 
-.hometown:first-child {
+.jen {
+  background-image: url("../assets/jen.jpg");
   color: rgb(17, 231, 19);
 }
 
