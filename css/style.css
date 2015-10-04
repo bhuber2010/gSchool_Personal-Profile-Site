@@ -26,11 +26,19 @@ h3 {
 
 .section {
   /*height: auto;*/
-  background: rgb(83, 230, 28);
-  background: rgba(83, 230, 28, 0.3);
+  background: rgb(38, 102, 212);
+  background: rgba(38, 102, 212, 0.44);
   padding: 5px 5% 5% 5%;
   border-radius: 20%;
   margin: 1%;
+}
+
+.hometown {
+  background-image: url("../assets/redrocks.jpg");
+}
+
+.hometown:first-child {
+  color: rgb(17, 231, 19);
 }
 
 .footer {
@@ -41,6 +49,7 @@ h3 {
 }
 
 h4 {
+  /*color: rgb(17, 231, 19);*/
   text-align: center;
   font-family: Impact, Charcoal, sans-serif;
 }
