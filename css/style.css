@@ -1,27 +1,47 @@
-div.title, {
+.flexparent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 
-  display: block;
-  float: left;
+.title {
+  display: flex;
+  flex-flow: row wrap;
+  /*justify-content: center;*/
+  /*align-content: center;*/
 }
 
 h1 {
-  font: arial;
-  color: rgb(12, 9, 71);
+  text-align: center;
+  padding-bottom: 1px;
+  width: 100%;
+  color: rgb(16, 82, 5);
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
 }
 
 .section {
-  height: auto;
-  background: rgb(83, 230, 28)
+  /*height: auto;*/
+  background: rgb(83, 230, 28);
+  background: rgba(83, 230, 28, 0.3);
+  padding: 5px 5% 5% 5%;
+  border-radius: 20%;
+  margin: 1%;
 }
 
 .footer {
-    position: fixed;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
     bottom: 100px;
-    width: 100%;
+    border: 2px solid rgb(213, 26, 149);
 }
 
 h4 {
+  text-align: center;
   font-family: Impact, Charcoal, sans-serif;
 }
 
