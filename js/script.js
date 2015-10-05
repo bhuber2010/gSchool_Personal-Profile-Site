@@ -6,6 +6,8 @@ $(document).ready(function() {
   //   $(this).show(500);
   // })
 
+  $(".section").effect('slide');
+
   $(".section").hover(
     function(){
       $(this).addClass("highlight");
@@ -14,5 +16,8 @@ $(document).ready(function() {
       $(this).removeClass("highlight");
     }
   );
+  $(".section").mouseenter(function(){
+    $(this).effect('bounce',{times:1},100);
+  });
 
 });
