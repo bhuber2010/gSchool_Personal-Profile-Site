@@ -6,7 +6,7 @@ $(document).ready(function() {
   //   $(this).show(500);
   // })
 
-  $(".section").effect('slide');
+  $(".section").effect("slide");
 
   $(".section").hover(
     function(){
@@ -17,7 +17,7 @@ $(document).ready(function() {
     }
   );
   $(".section").mouseenter(function(){
-    $(this).effect('bounce',{times:1},100);
+    $(this).effect("bounce", {times: 1}, 100);
   });
 
 });
