@@ -7,14 +7,24 @@ body {
 
 .flexparent {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.section {
+  /*height: auto;*/
+  background: rgb(38, 102, 212);
+  background: rgba(38, 102, 212, 0.44);
+  padding: 1px 5% 5% 5%;
+  border-radius: 20%;
+  margin: 1%;
+  flex-grow: 1;
 }
 
 .title {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
   /*justify-content: center;*/
   /*align-content: center;*/
 }
@@ -33,15 +43,6 @@ h3 {
   text-align: center;
   margin-top: 5px;
   width: 100%;
-}
-
-.section {
-  /*height: auto;*/
-  background: rgb(38, 102, 212);
-  background: rgba(38, 102, 212, 0.44);
-  padding: 5px 5% 5% 5%;
-  border-radius: 20%;
-  margin: 1%;
 }
 
 .highlight {
