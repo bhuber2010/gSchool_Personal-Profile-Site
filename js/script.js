@@ -16,8 +16,12 @@ $(document).ready(function() {
       $(this).removeClass("highlight");
     }
   );
-  $(".section").mouseenter(function(){
-    $(this).effect("bounce", {times: 1}, 100);
+  // $(".section").mouseenter(function(){
+  //   $(this).effect("bounce", {times: 1}, 100);
+  // });
+
+  $(".section").click(function(){
+    $(this).effect("bounce", {times: 1}, 400);
   });
 
 });
